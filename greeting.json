@@ -1,0 +1,10 @@
+{
+	"actions": [
+		{
+			"say": "Welcome“to the Mos Eisley Cantina! You will never find a more wretched hive of scum and villainy. I can provide you today’s specials, connect you with a host, or help you make a reservation."
+		},
+		{
+			"listen": true
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"actions": [
+		{
+			"collect": {
+				"name": "make_reservation",
+				"questions": [
+					{
+						"question": {
+							"say": "Great, I can help you with that. What's your first name?"
+						},
+						"name": "first_name",
+						"type": "Twilio.FIRST_NAME"
+					},
+					{
+						"question": {
+							"say": "What day would you like your reservation for?"
+						},
+						"name": "date",
+						"type": "Twilio.DATE"
+					},
+					{
+						"question": {
+							"say": "Nice, at what time?"
+						},
+						"name": "time",
+						"type": "Twilio.TIME"
+					},
+					{
+						"question": {
+							"say": "For how many humans, wookies, droids, jawas, ewoks, life forms?"
+						},
+						"name": "party_size",
+						"type": "Twilio.NUMBER"
+					}
+				],
+				"on_complete": {
+					"redirect": {
+						"method": "POST",
+						"uri": "https://rosewood-starling-9398.twil.io/autopilot"
+					}
+				}
+			}
+		}
+	]
+}

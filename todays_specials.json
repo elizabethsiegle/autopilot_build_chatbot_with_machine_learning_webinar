@@ -1,0 +1,10 @@
+{
+	"actions": [
+		{
+			"say": "Today's specials include: a shot and a beer, bantha milk, Rootleaf Stew (made from yarum seeds, mushroom spores, galla seeds, and sohli bark on Dagobah), Spice Runner Hard Cider, Klatooine Paddy Frogs, Levitating Shuura (sweet and juicy fruit native to the planet Naboo), jawa juice, and the Cantina Special "
+		},
+		{
+		    "listen": true
+		}
+	]
+}

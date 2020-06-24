@@ -1,0 +1,14 @@
+{
+	"actions": [
+		{
+			"say": "Hold on, we are connecting you with Chalmun, owner of the Cantina
+		},
+		{
+			"handoff": {
+				"method": "POST",
+				"channel": "voice",
+				"uri": "https://handler.twilio.com/twiml/EHbe3046e6dbb2142b00511148210c5581"
+			}
+		}
+	]
+}
