@@ -1,7 +1,7 @@
 {
 	"actions": [
 		{
-			"say": "Hold on, we are connecting you with Chalmun, owner of the Cantina
+			"say": "Hold on, we are connecting you with Chalmun, owner of the Cantina"
 		},
 		{
 			"handoff": {
